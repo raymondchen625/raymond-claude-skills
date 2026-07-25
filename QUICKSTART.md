@@ -7,17 +7,17 @@ Get up and running with the Fullstack Dev Skills Plugin.
 ### Marketplace (Recommended)
 ```bash
 # Add the marketplace
-/plugin marketplace add jeffallan/claude-skills
+/plugin marketplace add raymondchen625/raymond-claude-skills
 
 # Install the plugin
-/plugin install fullstack-dev-skills@jeffallan
+/plugin install raymond-claude-skills@raymond-claude-skills
 
 # Restart Claude Code when prompted
 ```
 
 ### Install from GitHub
 ```bash
-claude plugin install https://github.com/jeffallan/claude-skills
+claude plugin install https://github.com/raymondchen625/raymond-claude-skills
 ```
 
 ### Install via skills.sh
@@ -120,7 +120,7 @@ Include relevant information:
 ### Skills Not Loading After Install
 1. Verify the plugin is installed: `/plugin list`
 2. Check for conflicting skill names in `~/.claude/skills/`
-3. Try reinstalling: `/plugin uninstall fullstack-dev-skills@jeffallan` then reinstall
+3. Try reinstalling: `/plugin uninstall raymond-claude-skills@raymond-claude-skills` then reinstall
 
 ### How to Update
 ```bash

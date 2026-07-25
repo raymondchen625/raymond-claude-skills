@@ -1,6 +1,6 @@
 .PHONY: dev-link dev-unlink validate test site-dev site-build lint format lint-fix
 
-PLUGIN_NAME := fullstack-dev-skills
+PLUGIN_NAME := raymond-claude-skills
 VERSION := $(shell python -c "import json; print(json.load(open('version.json'))['version'])")
 CACHE_BASE := $(HOME)/.claude/plugins/cache/$(PLUGIN_NAME)/$(PLUGIN_NAME)
 CACHE_DIR := $(CACHE_BASE)/$(VERSION)

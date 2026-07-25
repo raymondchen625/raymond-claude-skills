@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5.0] - 2026-07-25
+
+First release of this fork. Forked from [Jeffallan/claude-skills](https://github.com/jeffallan/claude-skills) at upstream `v0.4.15`. Skill content is unchanged from upstream; this release covers fork identity only. Version bumped to `0.5.0` so this build is not confused with upstream `0.4.15`, whose contents differ.
+
+### Changed
+- **Marketplace renamed** to `raymond-claude-skills` (`.claude-plugin/marketplace.json`), with `owner.name` set to `raymondchen625`.
+- **Plugin renamed** from `fullstack-dev-skills` to `raymond-claude-skills` (`.claude-plugin/plugin.json`, `.claude-plugin/marketplace.json`). **Breaking:** the install command is now `/plugin install raymond-claude-skills@raymond-claude-skills`.
+- Install sources in `README.md`, `QUICKSTART.md`, `site/src/content/docs/index.mdx`, and `site/scripts/sync-content.mjs` now point at `raymondchen625/raymond-claude-skills` instead of upstream.
+- `Makefile`: `PLUGIN_NAME` updated so `make dev-link` resolves the correct plugin cache path.
+- `README.md`: removed badges reporting upstream's Trendshift ranking, Awesome Claude Code listing, and star count, plus the stargazer-roster and star-history sections — these described the upstream project, not this fork. Repointed the CI badge at this repository's own workflow.
+- `.claude-plugin/marketplace.json`: corrected the plugin author email.
+
+### Added
+- Fork notice at the top of `README.md` attributing the original work and directing issue reports to this repository.
+
+### Notes
+- Upstream attribution is retained deliberately: `repository`/`homepage` metadata, the author credit, and the `jeffallan.github.io/claude-skills` documentation backlink in all 66 `SKILL.md` files still point to the original project.
+
 ## [0.4.15] - 2026-05-20
 
 ### Fixed
@@ -461,6 +479,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Monitoring: Prometheus, Grafana, ELK, DataDog
 - Security: OWASP Top 10, SAST tools
 
+[0.5.0]: https://github.com/raymondchen625/raymond-claude-skills/compare/v0.4.15...v0.5.0
 [0.4.15]: https://github.com/jeffallan/claude-skills/compare/v0.4.14...v0.4.15
 [0.4.14]: https://github.com/jeffallan/claude-skills/compare/v0.4.13...v0.4.14
 [0.4.13]: https://github.com/jeffallan/claude-skills/compare/v0.4.12...v0.4.13
