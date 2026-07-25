@@ -572,11 +572,11 @@ Transform Claude Code into your expert pair programmer across the entire develop
 ## Quick Install
 
 \`\`\`bash
-/plugin marketplace add jeffallan/claude-skills
+/plugin marketplace add raymondchen625/raymond-claude-skills
 \`\`\`
 
 \`\`\`bash
-/plugin install fullstack-dev-skills@jeffallan
+/plugin install raymond-claude-skills@raymond-claude-skills
 \`\`\`
 
 ## Stats

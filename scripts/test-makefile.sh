@@ -49,7 +49,7 @@ TMPDIR=$(mktemp -d)
 CLEANUP_DIRS+=("$TMPDIR")
 
 VERSION=$(python -c "import json; print(json.load(open('version.json'))['version'])")
-FAKE_CACHE="$TMPDIR/fullstack-dev-skills"
+FAKE_CACHE="$TMPDIR/raymond-claude-skills"
 CACHE_DIR="$FAKE_CACHE/$VERSION"
 
 mkdir -p "$CACHE_DIR"
