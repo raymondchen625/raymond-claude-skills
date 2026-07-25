@@ -10,7 +10,7 @@ metadata:
   role: specialist
   scope: implementation
   output-format: code
-  related-skills: cloud-architect, devops-engineer, kubernetes-specialist
+  related-skills: terraform-engineer-oci, cloud-architect, devops-engineer, kubernetes-specialist
 ---
 
 # Terraform Engineer

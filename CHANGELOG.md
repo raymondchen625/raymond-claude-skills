@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- **`terraform-engineer-oci` skill** — Terraform for Oracle Cloud Infrastructure, adapted from `terraform-engineer`. Covers the `oracle/oci` provider and its five authentication modes, compartment hierarchy design, OCI IAM policy statements, the freeform/defined tagging model, VCN networking with NSGs and service gateways, and state on Resource Manager or the S3-compatible Object Storage backend. Eight reference files: `provider-auth`, `compartments-and-identity`, `tagging-and-cost`, `networking`, `state-management`, `module-patterns`, `testing`, `best-practices`.
+- `SKILLS_GUIDE.md`: entry for the new skill under Infrastructure & Cloud.
+
+### Changed
+- `terraform-engineer`: added `terraform-engineer-oci` to `related-skills`, and clarified its guide entry as AWS/Azure/GCP to distinguish it from the OCI skill.
+- Skill and reference counts updated to 67 and 374 via `scripts/update-docs.py`.
+
 ## [0.5.0] - 2026-07-25
 
 First release of this fork. Forked from [Jeffallan/claude-skills](https://github.com/jeffallan/claude-skills) at upstream `v0.4.15`. Skill content is unchanged from upstream; this release covers fork identity only. Version bumped to `0.5.0` so this build is not confused with upstream `0.4.15`, whose contents differ.
