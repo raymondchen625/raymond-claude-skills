@@ -40,7 +40,8 @@ A guide for choosing the right skill for your task. For installation, see [Quick
 
 ### Infrastructure & Cloud
 - **[Kubernetes Specialist](https://jeffallan.github.io/claude-skills/skills/infrastructure/kubernetes-specialist/)**: K8s deployments, Helm charts, cluster management
-- **[Terraform Engineer](https://jeffallan.github.io/claude-skills/skills/infrastructure/terraform-engineer/)**: Infrastructure as Code, multi-cloud provisioning
+- **[Terraform Engineer](https://jeffallan.github.io/claude-skills/skills/infrastructure/terraform-engineer/)**: Infrastructure as Code, multi-cloud provisioning (AWS/Azure/GCP)
+- **[Terraform Engineer (OCI)](https://jeffallan.github.io/claude-skills/skills/infrastructure/terraform-engineer-oci/)**: Infrastructure as Code on Oracle Cloud — compartments, OCIDs, defined tags, VCN, Resource Manager
 - **[Postgres Pro](https://jeffallan.github.io/claude-skills/skills/infrastructure/postgres-pro/)**: PostgreSQL optimization, replication, advanced features
 - **[Cloud Architect](https://jeffallan.github.io/claude-skills/skills/infrastructure/cloud-architect/)**: AWS/Azure/GCP architecture, multi-cloud strategies
 - **[Database Optimizer](https://jeffallan.github.io/claude-skills/skills/infrastructure/database-optimizer/)**: Database performance tuning, indexing strategies
